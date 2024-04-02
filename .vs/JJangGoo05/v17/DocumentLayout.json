@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\suhyen\\JJangGoo05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCDAE5E1-409D-4072-B1A8-139E1AD6A708}|JJangGoo05\\JJangGoo05.csproj|d:\\suhyen\\jjanggoo05\\jjanggoo05\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDAE5E1-409D-4072-B1A8-139E1AD6A708}|JJangGoo05\\JJangGoo05.csproj|solutionrelative:jjanggoo05\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCDAE5E1-409D-4072-B1A8-139E1AD6A708}|JJangGoo05\\JJangGoo05.csproj|D:\\suhyen\\JJangGoo05\\jjanggoo05\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCDAE5E1-409D-4072-B1A8-139E1AD6A708}|JJangGoo05\\JJangGoo05.csproj|solutionrelative:jjanggoo05\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCDAE5E1-409D-4072-B1A8-139E1AD6A708}|JJangGoo05\\JJangGoo05.csproj|D:\\suhyen\\JJangGoo05\\jjanggoo05\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDAE5E1-409D-4072-B1A8-139E1AD6A708}|JJangGoo05\\JJangGoo05.csproj|solutionrelative:jjanggoo05\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCDAE5E1-409D-4072-B1A8-139E1AD6A708}|JJangGoo05\\JJangGoo05.csproj|D:\\suhyen\\JJangGoo05\\jjanggoo05\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDAE5E1-409D-4072-B1A8-139E1AD6A708}|JJangGoo05\\JJangGoo05.csproj|solutionrelative:jjanggoo05\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCDAE5E1-409D-4072-B1A8-139E1AD6A708}|JJangGoo05\\JJangGoo05.csproj|D:\\suhyen\\JJangGoo05\\jjanggoo05\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DCDAE5E1-409D-4072-B1A8-139E1AD6A708}|JJangGoo05\\JJangGoo05.csproj|solutionrelative:jjanggoo05\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\suhyen\\JJangGoo05\\JJangGoo05\\Form1.cs",
+              "RelativeDocumentMoniker": "JJangGoo05\\Form1.cs",
+              "ToolTip": "D:\\suhyen\\JJangGoo05\\JJangGoo05\\Form1.cs",
+              "RelativeToolTip": "JJangGoo05\\Form1.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAIwB0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:25:33.938Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "D:\\suhyen\\JJangGoo05\\JJangGoo05\\Form1.cs",
+              "RelativeDocumentMoniker": "JJangGoo05\\Form1.cs",
+              "ToolTip": "C:\\Users\\\uC720\uC218\uD604\\source\\repos\\JJangGoo05\\JJangGoo05\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:25:03.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\suhyen\\JJangGoo05\\JJangGoo05\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "JJangGoo05\\Form1.Designer.cs",
+              "ToolTip": "D:\\suhyen\\JJangGoo05\\JJangGoo05\\Form1.Designer.cs",
+              "RelativeToolTip": "JJangGoo05\\Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:58:14.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "D:\\suhyen\\JJangGoo05\\JJangGoo05\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "JJangGoo05\\Properties\\Resources.resx",
+              "ToolTip": "D:\\suhyen\\JJangGoo05\\JJangGoo05\\Properties\\Resources.resx",
+              "RelativeToolTip": "JJangGoo05\\Properties\\Resources.resx",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwv5kAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-02T15:40:51.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserControl1.cs",
+              "DocumentMoniker": "D:\\suhyen\\JJangGoo05\\JJangGoo05\\UserControl1.cs",
+              "RelativeDocumentMoniker": "JJangGoo05\\UserControl1.cs",
+              "ToolTip": "D:\\suhyen\\JJangGoo05\\JJangGoo05\\UserControl1.cs",
+              "RelativeToolTip": "JJangGoo05\\UserControl1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T14:36:48.006Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

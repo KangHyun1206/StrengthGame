@@ -1,0 +1,11 @@
+C:\Users\유수현\source\repos\JJangGoo05\JJangGoo05\obj\Debug\JJangGoo05.csproj.AssemblyReference.cache
+C:\Users\유수현\source\repos\JJangGoo05\JJangGoo05\obj\Debug\JJangGoo05.Form1.resources
+C:\Users\유수현\source\repos\JJangGoo05\JJangGoo05\obj\Debug\JJangGoo05.Properties.Resources.resources
+C:\Users\유수현\source\repos\JJangGoo05\JJangGoo05\obj\Debug\JJangGoo05.csproj.GenerateResource.cache
+C:\Users\유수현\source\repos\JJangGoo05\JJangGoo05\obj\Debug\JJangGoo05.csproj.CoreCompileInputs.cache
+C:\Users\유수현\source\repos\JJangGoo05\JJangGoo05\bin\Debug\JJangGoo05.exe.config
+C:\Users\유수현\source\repos\JJangGoo05\JJangGoo05\bin\Debug\JJangGoo05.exe
+C:\Users\유수현\source\repos\JJangGoo05\JJangGoo05\bin\Debug\JJangGoo05.pdb
+C:\Users\유수현\source\repos\JJangGoo05\JJangGoo05\obj\Debug\JJangGoo05.exe
+C:\Users\유수현\source\repos\JJangGoo05\JJangGoo05\obj\Debug\JJangGoo05.pdb
+C:\Users\유수현\source\repos\JJangGoo05\JJangGoo05\obj\Debug\JJangGoo05.UserControl1.resources
