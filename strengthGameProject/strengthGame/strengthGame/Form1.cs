@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,14 +16,19 @@ namespace strengthGame
         public Form1()
         {
             InitializeComponent();
+            PercentLabel.Text = "강화 확률 : " + strPer[characterLevel];
         }
         int characterLevel = 0; //강화 레벨
         int gameMoney = 100000; //시작 금액
         int gameItem = 1; //굉장해엄청나 카드 수
         int gameItemPlus = 0;
+        int orderNum = 0; //CSV 처리 번호
         int[] strCost = { 100, 500, 1000, 2000, 5000, 7000, 15000, 30000, 50000, 100000 }; //강화 비용
         int[] sellCost = { 50, 200, 500, 1000, 3000, 15000, 50000, 100000, 150000, 9999999 }; //판매 비용
-        
+        int[] strPer = { 100, 99, 95, 90, 85, 80, 70, 50, 30, 10 };
+        string[] alarmName = { "0강","1강", "2강", "3강", "4강", "5강", "6강", "7강", "8강", "9강", "10강", };
+        string result;
+        string[] status = { "success", "failure" };
         public bool sResult(int perC)
         {
             Random rand = new Random(); //랜덤 생성 변수 선언
@@ -31,11 +37,14 @@ namespace strengthGame
             {
                 ++characterLevel; //강화 레벨 증가
                 statusText.Text = characterLevel + "강"; //강화 레벨 텍스트 표현
+                result = status[0];
                 return true; //True값을 줘서 실행
             }
             else 
             { 
-                characterLevel = 0; statusText.Text = "태초마을에 오신 것을 환영합니다."; return false;  //false값을 주면 이미지가 사라짐 그냥 일단 테스팅용
+                characterLevel = 0; statusText.Text = "태초마을에 오신 것을 환영합니다.";
+                result = status[1];
+                return false;  //false값을 주면 이미지가 사라짐 그냥 일단 테스팅용
             }
         }
         private void button1_Click(object sender, EventArgs e) //강화버튼 클릭시
@@ -53,6 +62,7 @@ namespace strengthGame
                     {
                         gameMoney -= strCost[characterLevel]; //플레이어 재화 감소
                         pictureBox1.Visible = sResult(100); //성공 시 사진 출력값 :true(보이게). 실패는 false
+                        WriteStrengthCsv();
                     }
                     break; //마침표
 
@@ -66,6 +76,7 @@ namespace strengthGame
                     {
                         gameMoney -= strCost[characterLevel];
                         pictureBox1.Visible = sResult(99);
+                        WriteStrengthCsv();
                     }
                     break;
                 case 2: //2강 상태.. 이하생략
@@ -78,6 +89,7 @@ namespace strengthGame
                     {
                         gameMoney -= strCost[characterLevel];
                         pictureBox1.Visible = sResult(95);
+                        WriteStrengthCsv();
                     }
                     break;
                 case 3:
@@ -90,6 +102,7 @@ namespace strengthGame
                     {
                         gameMoney -= strCost[characterLevel];
                         pictureBox1.Visible = sResult(90);
+                        WriteStrengthCsv();
                     }
                     break;
                 case 4:
@@ -102,6 +115,7 @@ namespace strengthGame
                     {
                         gameMoney -= strCost[characterLevel];
                         pictureBox1.Visible = sResult(85);
+                        WriteStrengthCsv();
                     }
                     break;
                 case 5:
@@ -113,6 +127,7 @@ namespace strengthGame
                     {
                         gameMoney -= strCost[characterLevel];
                         pictureBox1.Visible = sResult(80);
+                        WriteStrengthCsv();
                     }
                     break;
                 case 6:
@@ -124,6 +139,7 @@ namespace strengthGame
                     {
                         gameMoney -= strCost[characterLevel];
                         pictureBox1.Visible = sResult(70);
+                        WriteStrengthCsv();
                     }
                     break;
                 case 7:
@@ -135,6 +151,7 @@ namespace strengthGame
                     {
                         gameMoney -= strCost[characterLevel];
                         pictureBox1.Visible = sResult(50);
+                        WriteStrengthCsv();
                     }
                     break;
                 case 8:
@@ -146,6 +163,7 @@ namespace strengthGame
                     {
                         gameMoney -= strCost[characterLevel];
                         pictureBox1.Visible = sResult(30);
+                        WriteStrengthCsv();
                     }
                     break;
                 case 9:
@@ -157,6 +175,7 @@ namespace strengthGame
                     {
                         gameMoney -= strCost[characterLevel];
                         pictureBox1.Visible = sResult(10);
+                        WriteStrengthCsv();
                     }
                     break;
                 case 10:
@@ -173,6 +192,7 @@ namespace strengthGame
             itemQuan.Text = "아이템 : " + gameItem.ToString(); //남은 아이템 개수 출력
             StrcostText.Text = "강화 비용 : " + strCost[characterLevel];
             sellCostText.Text = "판매 비용 : " + sellCost[characterLevel];
+            PercentLabel.Text = "강화 확률 : " +strPer[characterLevel];
         }
 
         private void btn_Item_Click(object sender, EventArgs e) //아이템(굉장히 엄청나) 사용 버튼 클릭시
@@ -185,12 +205,15 @@ namespace strengthGame
             {
                 --gameItem; //아이템 수 감소
                 ++characterLevel; //강화 레벨 증가
+                WriteItemStrengthCsv();
                 statusText.Text = characterLevel + "강"; //강화 레벨 텍스트 출력
                 itemQuan.Text = "아이템 : "+gameItem.ToString(); //아이템 개수 출력
                 pictureBox1.Visible = true; //사진 보여지게 설정
             }
             StrcostText.Text = "강화 비용 : " + strCost[characterLevel];
             sellCostText.Text = "판매 비용 : " + sellCost[characterLevel];
+            PercentLabel.Text = "강화 확률 : " + strPer[characterLevel];
+
         }
 
         private void button2_Click(object sender, EventArgs e) //판매 버튼 클릭시
@@ -201,6 +224,7 @@ namespace strengthGame
             }
             else if(characterLevel == 1) //강화 레벨이 1일 때
             {
+                WriteSaleCsv();
                 gameMoney += sellCost[characterLevel-1]; //플레이어 재화 증가(판매 비용 획득)
                 moneyQuan.Text = "돈 : " + gameMoney.ToString(); //재화 텍스트 출력
                 characterLevel = 0; //판매 후 레벨 초기화
@@ -210,6 +234,7 @@ namespace strengthGame
             }
             else if (characterLevel == 2) //강화 레벨이 2일 때.. 이하생략
             {
+                WriteSaleCsv();
                 gameMoney += sellCost[characterLevel - 1];
                 moneyQuan.Text = "돈 : " + gameMoney.ToString();
                 characterLevel = 0;
@@ -219,6 +244,7 @@ namespace strengthGame
             }
             else if (characterLevel == 3)
             {
+                WriteSaleCsv();
                 gameMoney += sellCost[characterLevel - 1];
                 moneyQuan.Text = "돈 : " + gameMoney.ToString();
                 characterLevel = 0;
@@ -228,6 +254,7 @@ namespace strengthGame
             }
             else if (characterLevel == 4)
             {
+                WriteSaleCsv();
                 gameMoney += sellCost[characterLevel - 1];
                 moneyQuan.Text = "돈 : " + gameMoney.ToString();
                 characterLevel = 0;
@@ -237,6 +264,7 @@ namespace strengthGame
             }
             else if (characterLevel == 5)
             {
+                WriteSaleCsv();
                 gameMoney += sellCost[characterLevel - 1];
                 moneyQuan.Text = "돈 : " + gameMoney.ToString();
                 characterLevel = 0;
@@ -246,6 +274,7 @@ namespace strengthGame
             }
             else if (characterLevel == 6)
             {
+                WriteSaleCsv();
                 gameMoney += sellCost[characterLevel - 1];
                 moneyQuan.Text = "돈 : " + gameMoney.ToString();
                 characterLevel = 0;
@@ -255,6 +284,7 @@ namespace strengthGame
             }
             else if (characterLevel == 7)
             {
+                WriteSaleCsv();
                 gameMoney += sellCost[characterLevel - 1];
                 moneyQuan.Text = "돈 : " + gameMoney.ToString();
                 characterLevel = 0;
@@ -264,6 +294,7 @@ namespace strengthGame
             }
             else if (characterLevel == 8)
             {
+                WriteSaleCsv();
                 gameMoney += sellCost[characterLevel - 1];
                 moneyQuan.Text = "돈 : " + gameMoney.ToString();
                 characterLevel = 0;
@@ -273,6 +304,7 @@ namespace strengthGame
             }
             else if (characterLevel == 9)
             {
+                WriteSaleCsv();
                 gameMoney += sellCost[characterLevel - 1];
                 moneyQuan.Text = "돈 : " + gameMoney.ToString();
                 characterLevel = 0;
@@ -282,6 +314,7 @@ namespace strengthGame
             }
             else if (characterLevel == 10)
             {
+                WriteSaleCsv();
                 gameMoney += sellCost[characterLevel - 1];
                 moneyQuan.Text = "돈 : " + gameMoney.ToString();
                 characterLevel = 0;
@@ -296,6 +329,73 @@ namespace strengthGame
             }
             StrcostText.Text = "강화 비용 : " + strCost[characterLevel];
             sellCostText.Text = "판매 비용 : " + sellCost[characterLevel];
+            PercentLabel.Text = "강화 확률 : " + strPer[characterLevel];
         }
+        private void Reset()
+        {
+            orderNum = 0;
+            // 다른 변수들도 초기화하거나 리셋하는 작업 추가
+        }
+        private void WriteStrengthCsv()
+        {
+            orderNum += 1;
+            if (!File.Exists("GameData.csv"))
+            {
+                using (StreamWriter sw = new StreamWriter("GameData.csv", false, Encoding.UTF8))
+                {
+                    sw.WriteLine("No.,Type,Time,AlarmName,Status,quantity_money,quantity_item");
+                    sw.WriteLine($"{orderNum},{"Strength"},{DateTime.Now},{alarmName[characterLevel]},{result},{gameMoney},{gameItem}");
+                }
+            }
+            else
+            {
+                using (StreamWriter sw = new StreamWriter("GameData.csv", true, Encoding.UTF8))
+                {
+                    sw.WriteLine($"{orderNum},{"Strength"},{DateTime.Now},{alarmName[characterLevel]},{result},{gameMoney},{gameItem}");
+                }
+            }
+            
+        }
+        private void WriteItemStrengthCsv()
+        {
+            orderNum += 1;
+            if (!File.Exists("GameData.csv"))
+            {
+                using (StreamWriter sw = new StreamWriter("GameData.csv", false, Encoding.UTF8))
+                {
+                    sw.WriteLine("No.,Type,Time,AlarmName,Status,quantity_money,quantity_item");
+                    sw.WriteLine($"{orderNum},{"ItemStrength"},{DateTime.Now},{alarmName[characterLevel]},{result},{gameMoney},{gameItem}");
+                }
+            }
+            else
+            {
+                using (StreamWriter sw = new StreamWriter("GameData.csv", true, Encoding.UTF8))
+                {
+                    sw.WriteLine($"{orderNum},{"ItemStrength"},{DateTime.Now},{alarmName[characterLevel]},{result},{gameMoney},{gameItem}");
+                }
+            }
+
+        }
+        private void WriteSaleCsv()
+        {
+            orderNum += 1;
+            if (!File.Exists("GameData.csv"))
+            {
+                using (StreamWriter sw = new StreamWriter("GameData.csv", false, Encoding.UTF8))
+                {
+                    sw.WriteLine("No.,Type,Time,AlarmName,Status,quantity_money,quantity_item");
+                    sw.WriteLine($"{orderNum},{"Sale"},{DateTime.Now},{alarmName[characterLevel]},{"blank"},{gameMoney},{gameItem}");
+                }
+            }
+            else
+            {
+                using (StreamWriter sw = new StreamWriter("GameData.csv", true, Encoding.UTF8))
+                {
+                    sw.WriteLine($"{orderNum},{"Sale"},{DateTime.Now},{alarmName[characterLevel]},{"blank"},{gameMoney},{gameItem}");
+                }
+            }
+
+        }
+
     }
 }

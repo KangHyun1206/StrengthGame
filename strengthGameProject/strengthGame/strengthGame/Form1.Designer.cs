@@ -37,6 +37,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.StrcostText = new System.Windows.Forms.Label();
             this.sellCostText = new System.Windows.Forms.Label();
+            this.PercentLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,19 +45,19 @@
             // 
             this.statusText.AutoSize = true;
             this.statusText.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.statusText.Location = new System.Drawing.Point(278, 40);
+            this.statusText.Location = new System.Drawing.Point(318, 50);
             this.statusText.Name = "statusText";
-            this.statusText.Size = new System.Drawing.Size(112, 22);
+            this.statusText.Size = new System.Drawing.Size(142, 28);
             this.statusText.TabIndex = 0;
             this.statusText.Text = "게임 시작!";
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(208, 266);
+            this.button1.Location = new System.Drawing.Point(238, 332);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 50);
+            this.button1.Size = new System.Drawing.Size(136, 62);
             this.button1.TabIndex = 1;
             this.button1.Text = "강화!!";
             this.button1.UseVisualStyleBackColor = true;
@@ -65,20 +66,20 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::strengthGame.Properties.Resources.다운로드;
-            this.pictureBox1.Location = new System.Drawing.Point(208, 98);
+            this.pictureBox1.Location = new System.Drawing.Point(238, 122);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(285, 151);
+            this.pictureBox1.Size = new System.Drawing.Size(326, 189);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // btn_Item
             // 
             this.btn_Item.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_Item.Location = new System.Drawing.Point(380, 266);
+            this.btn_Item.Location = new System.Drawing.Point(434, 332);
             this.btn_Item.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_Item.Name = "btn_Item";
-            this.btn_Item.Size = new System.Drawing.Size(172, 50);
+            this.btn_Item.Size = new System.Drawing.Size(197, 62);
             this.btn_Item.TabIndex = 3;
             this.btn_Item.Text = "아이템 강화!";
             this.btn_Item.UseVisualStyleBackColor = true;
@@ -87,28 +88,28 @@
             // moneyQuan
             // 
             this.moneyQuan.AutoSize = true;
-            this.moneyQuan.Location = new System.Drawing.Point(37, 24);
+            this.moneyQuan.Location = new System.Drawing.Point(42, 30);
             this.moneyQuan.Name = "moneyQuan";
-            this.moneyQuan.Size = new System.Drawing.Size(59, 12);
+            this.moneyQuan.Size = new System.Drawing.Size(77, 15);
             this.moneyQuan.TabIndex = 4;
             this.moneyQuan.Text = "돈 : 10000";
             // 
             // itemQuan
             // 
             this.itemQuan.AutoSize = true;
-            this.itemQuan.Location = new System.Drawing.Point(129, 24);
+            this.itemQuan.Location = new System.Drawing.Point(147, 30);
             this.itemQuan.Name = "itemQuan";
-            this.itemQuan.Size = new System.Drawing.Size(59, 12);
+            this.itemQuan.Size = new System.Drawing.Size(75, 15);
             this.itemQuan.TabIndex = 4;
             this.itemQuan.Text = "아이템 : 1";
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.Location = new System.Drawing.Point(565, 266);
+            this.button2.Location = new System.Drawing.Point(646, 332);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(97, 50);
+            this.button2.Size = new System.Drawing.Size(111, 62);
             this.button2.TabIndex = 5;
             this.button2.Text = "판매";
             this.button2.UseVisualStyleBackColor = true;
@@ -118,9 +119,9 @@
             // 
             this.StrcostText.AutoSize = true;
             this.StrcostText.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.StrcostText.Location = new System.Drawing.Point(12, 98);
+            this.StrcostText.Location = new System.Drawing.Point(14, 122);
             this.StrcostText.Name = "StrcostText";
-            this.StrcostText.Size = new System.Drawing.Size(155, 21);
+            this.StrcostText.Size = new System.Drawing.Size(204, 27);
             this.StrcostText.TabIndex = 6;
             this.StrcostText.Text = "강화 비용 : 100";
             // 
@@ -128,17 +129,28 @@
             // 
             this.sellCostText.AutoSize = true;
             this.sellCostText.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.sellCostText.Location = new System.Drawing.Point(12, 141);
+            this.sellCostText.Location = new System.Drawing.Point(14, 176);
             this.sellCostText.Name = "sellCostText";
-            this.sellCostText.Size = new System.Drawing.Size(155, 21);
+            this.sellCostText.Size = new System.Drawing.Size(204, 27);
             this.sellCostText.TabIndex = 6;
             this.sellCostText.Text = "판매 비용 : 100";
             // 
+            // PercentLabel
+            // 
+            this.PercentLabel.AutoSize = true;
+            this.PercentLabel.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.PercentLabel.Location = new System.Drawing.Point(42, 222);
+            this.PercentLabel.Name = "PercentLabel";
+            this.PercentLabel.Size = new System.Drawing.Size(117, 20);
+            this.PercentLabel.TabIndex = 7;
+            this.PercentLabel.Text = "강화 확률 : ";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(700, 360);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.PercentLabel);
             this.Controls.Add(this.sellCostText);
             this.Controls.Add(this.StrcostText);
             this.Controls.Add(this.button2);
@@ -168,6 +180,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label StrcostText;
         private System.Windows.Forms.Label sellCostText;
+        private System.Windows.Forms.Label PercentLabel;
     }
 }
 
