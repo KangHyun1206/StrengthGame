@@ -113,9 +113,9 @@
             this.StrcostText.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.StrcostText.Location = new System.Drawing.Point(14, 122);
             this.StrcostText.Name = "StrcostText";
-            this.StrcostText.Size = new System.Drawing.Size(172, 27);
+            this.StrcostText.Size = new System.Drawing.Size(204, 27);
             this.StrcostText.TabIndex = 6;
-            this.StrcostText.Text = "강화 비용 : 0";
+            this.StrcostText.Text = "강화 비용 : 100";
             // 
             // sellCostText
             // 
