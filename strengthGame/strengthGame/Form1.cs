@@ -31,24 +31,40 @@ namespace strengthGame
         string[] status = { "success", "failure" };
         public bool sResult(int perC)
         {
-            Random rand = new Random(); //랜덤 생성 변수 선언
-            int percent = (int)rand.Next(1, 101); //1~100중 랜덤한 숫자 받아와서 정수형(Int)으로 변환한 값을 저장
-            if(percent<=perC) //확률보다 숫자가 낮으면 강화 성공!
+            Random rand = new Random(); // 랜덤 생성 변수 선언
+            int percent = (int)rand.Next(1, 101); // 1~100 중 랜덤한 숫자 받아와서 정수형(Int)으로 변환한 값을 저장
+            if (percent <= perC) // 확률보다 숫자가 낮으면 강화 성공!
             {
-                ++characterLevel; //강화 레벨 증가
-                statusText.Text = characterLevel + "강"; //강화 레벨 텍스트 표현
+                // 20%의 확률로 2단 강화
+                if (characterLevel < 9 && percent <= 15)
+                {
+                    characterLevel += 2; // 강화 레벨 2단 증가
+                }
+                else
+                {
+                    ++characterLevel; // 강화 레벨 증가
+                }
+
+                // 강화 레벨이 최대 레벨을 넘어가는지 확인하여 최대 레벨로 조정
+                if (characterLevel > 10)
+                {
+                    characterLevel = 10;
+                }
+
+                statusText.Text = characterLevel + "강"; // 강화 레벨 텍스트 표현
                 result = status[0];
-                return true; //True값을 줘서 실행
+                return true; // True값을 줘서 실행
             }
-            else 
+            else
             {
                 characterLevel = 0;
                 statusText.Text = characterLevel + "강";
-                
+
                 result = status[1];
-                return false;  //false값을 주면 이미지가 사라짐 그냥 일단 테스팅용
+                return false; // False값을 주면 이미지가 사라짐, 그냥 일단 테스팅용
             }
         }
+
         private void button1_Click(object sender, EventArgs e) //강화버튼 클릭시
         {
 
