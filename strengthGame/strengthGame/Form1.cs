@@ -39,10 +39,12 @@ namespace strengthGame
                 if (characterLevel < 9 && percent <= 15)
                 {
                     characterLevel += 2; // 강화 레벨 2단 증가
+                    DoubleSCheck.Visible = true;
                 }
                 else
                 {
                     ++characterLevel; // 강화 레벨 증가
+                    DoubleSCheck.Visible = false;
                 }
 
                 // 강화 레벨이 최대 레벨을 넘어가는지 확인하여 최대 레벨로 조정
@@ -57,6 +59,7 @@ namespace strengthGame
             }
             else
             {
+                DoubleSCheck.Visible = false;
                 characterLevel = 0;
                 statusText.Text = characterLevel + "강";
 
@@ -67,7 +70,7 @@ namespace strengthGame
 
         private void button1_Click(object sender, EventArgs e) //강화버튼 클릭시
         {
-
+            DoubleSCheck.Visible = false;
             switch (characterLevel) //강화레벨마다 다르게 적용
             {
                 case 0: //0강 상태
@@ -226,7 +229,8 @@ namespace strengthGame
 
         private void btn_Item_Click(object sender, EventArgs e) //아이템(굉장히 엄청나) 사용 버튼 클릭시
         {
-            if(gameItem == 0) //아이템이 없을 때
+            DoubleSCheck.Visible = false;
+            if (gameItem == 0) //아이템이 없을 때
             {
                 MessageBox.Show("아이템이 없습니다!"); //사용 불가 메시지 출력
             }
@@ -247,7 +251,8 @@ namespace strengthGame
 
         private void button2_Click(object sender, EventArgs e) //판매 버튼 클릭시
         {
-            if(characterLevel == 0) //강화하지 않았을 때. 즉, 강화 레벨이 0일때
+            DoubleSCheck.Visible = false;
+            if (characterLevel == 0) //강화하지 않았을 때. 즉, 강화 레벨이 0일때
             {
                 MessageBox.Show("판매할 수 없는 강화 단계입니다."); //판매 불가 메시지 출력
             }
