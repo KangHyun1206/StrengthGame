@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\STGame\\STGame_Ver.sheetData\\GoogleSheetTestingFile\\strengthGame\\",
   "Documents": [
     {
@@ -20,6 +21,28 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A2C4447-609C-4433-9037-BDE048551AB5}|strengthGame\\strengthGame.csproj|D:\\STGame\\STGame_Ver.sheetData\\GoogleSheetTestingFile\\strengthGame\\strengthgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+  "WorkspaceRootPath": "C:\\Users\\user1\\Desktop\\\uC0C8 \uD3F4\uB354 (4)\\GoogleSheetTestingFile\\strengthGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A2C4447-609C-4433-9037-BDE048551AB5}|strengthGame\\strengthGame.csproj|c:\\users\\user1\\desktop\\\uC0C8 \uD3F4\uB354 (4)\\googlesheettestingfile\\strengthgame\\strengthgame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A2C4447-609C-4433-9037-BDE048551AB5}|strengthGame\\strengthGame.csproj|solutionrelative:strengthgame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A2C4447-609C-4433-9037-BDE048551AB5}|strengthGame\\strengthGame.csproj|C:\\Users\\user1\\Desktop\\\uC0C8 \uD3F4\uB354 (4)\\GoogleSheetTestingFile\\strengthGame\\strengthgame\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A2C4447-609C-4433-9037-BDE048551AB5}|strengthGame\\strengthGame.csproj|solutionrelative:strengthgame\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A2C4447-609C-4433-9037-BDE048551AB5}|strengthGame\\strengthGame.csproj|C:\\Users\\user1\\Desktop\\\uC0C8 \uD3F4\uB354 (4)\\GoogleSheetTestingFile\\strengthGame\\strengthgame\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A2C4447-609C-4433-9037-BDE048551AB5}|strengthGame\\strengthGame.csproj|solutionrelative:strengthgame\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A2C4447-609C-4433-9037-BDE048551AB5}|strengthGame\\strengthGame.csproj|C:\\Users\\user1\\Desktop\\\uC0C8 \uD3F4\uB354 (4)\\GoogleSheetTestingFile\\strengthGame\\strengthgame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A2C4447-609C-4433-9037-BDE048551AB5}|strengthGame\\strengthGame.csproj|solutionrelative:strengthgame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A2C4447-609C-4433-9037-BDE048551AB5}|strengthGame\\strengthGame.csproj|C:\\Users\\user1\\Desktop\\\uC0C8 \uD3F4\uB354 (4)\\GoogleSheetTestingFile\\strengthGame\\strengthgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 0a25540c99aaebcb55c92f9b4284491e02389f1e
       "RelativeMoniker": "D:0:0:{0A2C4447-609C-4433-9037-BDE048551AB5}|strengthGame\\strengthGame.csproj|solutionrelative:strengthgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,9 +59,15 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "D:\\STGame\\STGame_Ver.sheetData\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Program.cs",
               "RelativeDocumentMoniker": "strengthGame\\Program.cs",
               "ToolTip": "D:\\STGame\\STGame_Ver.sheetData\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Program.cs",
+=======
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\uC0C8 \uD3F4\uB354 (4)\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Program.cs",
+              "RelativeDocumentMoniker": "strengthGame\\Program.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\uC0C8 \uD3F4\uB354 (4)\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Program.cs",
+>>>>>>> 0a25540c99aaebcb55c92f9b4284491e02389f1e
               "RelativeToolTip": "strengthGame\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvxMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -48,6 +77,7 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Login.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "D:\\STGame\\STGame_Ver.sheetData\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Login.cs",
               "RelativeDocumentMoniker": "strengthGame\\Login.cs",
               "ToolTip": "D:\\STGame\\STGame_Ver.sheetData\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Login.cs",
@@ -68,22 +98,50 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T04:26:22.201Z",
               "EditorCaption": " [\uB514\uC790\uC778]"
+=======
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\uC0C8 \uD3F4\uB354 (4)\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Login.cs",
+              "RelativeDocumentMoniker": "strengthGame\\Login.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\uC0C8 \uD3F4\uB354 (4)\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Login.cs",
+              "RelativeToolTip": "strengthGame\\Login.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T04:27:17.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\uC0C8 \uD3F4\uB354 (4)\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Login.cs",
+              "RelativeDocumentMoniker": "strengthGame\\Login.cs",
+              "ToolTip": "D:\\STGame\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Login.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T04:26:22.201Z"
+>>>>>>> 0a25540c99aaebcb55c92f9b4284491e02389f1e
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "D:\\STGame\\STGame_Ver.sheetData\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Form1.cs",
               "RelativeDocumentMoniker": "strengthGame\\Form1.cs",
               "ToolTip": "D:\\STGame\\STGame_Ver.sheetData\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Form1.cs",
               "RelativeToolTip": "strengthGame\\Form1.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAAwB8AAAAAAAAA",
+=======
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\uC0C8 \uD3F4\uB354 (4)\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Form1.cs",
+              "RelativeDocumentMoniker": "strengthGame\\Form1.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\uC0C8 \uD3F4\uB354 (4)\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Form1.cs",
+              "RelativeToolTip": "strengthGame\\Form1.cs",
+              "ViewState": "AQIAAN8BAAAAAAAAAAAqwO4BAAArAAAA",
+>>>>>>> 0a25540c99aaebcb55c92f9b4284491e02389f1e
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T00:38:08.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "Form1.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "D:\\STGame\\STGame_Ver.sheetData\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Form1.cs",
@@ -93,6 +151,15 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T00:38:01.52Z",
               "EditorCaption": " [\uB514\uC790\uC778]"
+=======
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\uC0C8 \uD3F4\uB354 (4)\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Form1.cs",
+              "RelativeDocumentMoniker": "strengthGame\\Form1.cs",
+              "ToolTip": "D:\\STGame\\GoogleSheetTestingFile\\strengthGame\\strengthGame\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T00:38:01.52Z"
+>>>>>>> 0a25540c99aaebcb55c92f9b4284491e02389f1e
             }
           ]
         },

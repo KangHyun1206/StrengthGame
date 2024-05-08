@@ -28,7 +28,11 @@ namespace strengthGame
         private string ApplicationName = "Google Sheets API .NET TEST";
         private string spreadsheetId = "16nvo9gxFUO_oXqtMxViJhqHTc5epZsNbWX7rzzYx324";
 
+<<<<<<< HEAD
         public string UserId;
+=======
+       
+>>>>>>> 0a25540c99aaebcb55c92f9b4284491e02389f1e
 
         int characterLevel = 0; //강화 레벨
         int gameMoney = 100000; //시작 금액
