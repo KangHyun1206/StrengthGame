@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "strengthgame",
+  "private_key_id": "427db5002ebdb9607d67b69cc6967ea479506898",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDTJ6UjL3BxigjR\ntICpQwxzADRWHfiscfMEl4/3nU67xwAJNRNlFlBO3IajxtrarHsSfyEHVX0yqW87\n2coQosNQ7HdqYJxekEXlR95OwNUIEeavRHC3p1EiDFNG8xyO0mUpAF6mpOAtb51K\n+TsW5TUQXmEPZ4Kwf9W+Yvt6m+tGzzy5if6gtDbI0XHFc+c4nA0wyPSbTG3UwKf9\nQe0itkXlMKHtPg/h9FawVEmZKiR7c/SIhSYpMsTffxiWQmlovgAUkZeRNB9wdh1Q\nnAFExPnXkfFZxzc4Qy/qF4PHQakAFGyn9T7ARfeDdQqXuNtfm51Ii/5HlNGue3J5\nGe50W7gHAgMBAAECggEAUgBEblye80ji0eWiTZlfPU3oBUWQbA+4i6D8ZPHvQJcw\nmWLGTGyU9XtIwlOYbHGtPeqm/f0iKMmKDBkxErLS3Rtn6KTqNQMcUcVOPRE/6elh\nx9DxYTEWHf3hXV1OStzEMl8VYuwGrz54PER7wRF0QQ4V7XCKXVbXwB8agGwKu61M\n0ejqTEHkoegZnhgtN2cyWFIFVRMAYS/CA6cXqU45kQncuoEMKiwqOpkarci2pr3r\nYXsqeTaC4clwH1ICMsbMiJnK6ylqkCi+pa3qH+b41avenaya8l7YNRgj10GLNglG\nmT44XqbZ0Y1b+bSBtuTwJt9hU5MgfS41+/nBvILtMQKBgQDsOB3qrnjAFlLBj22X\nbUxXmqb3cXWCGnvy1sHSv+TKEn7W3LeAJXGz4H/N1o+DbSmmCH2ZtvtPMsKSTC/F\nu8v/tozgeKxwa6ohEVfY4RJUz4AI6Mzm7E8wLEIjf00veWyVJEfivoRTGy0lELzY\ntYYVGUt/adFxRPgcHYuW55z7PwKBgQDk1jfm896x36kR23/046iwknUtM7vZRK7A\nuUDkW4l8ZMpg7uRhfro3KFoWmj7FJr80r5SuNXkmrATgaAF21jSbIlFTb6yCwV8N\nolPCswx4WFHq65lp2Huu1MstaTmKwrCv3lEJMjdc2MiruvEnLEFWIppd3Viie9AD\nD5tHuZl5OQKBgQCwMwe1x2DQv5YJRahUnLWmXviOeHZTjtfIAwNe5b6OMI+mS8sg\n7k1LBHmwm4w/V40KiSjPIRuCLvXN1MCJuRRo8M1SnxDZZqXntp0VbIWU95akjqpQ\n0hIbd9f5zHpRoDwrX32zl7LynsHk9QA4kearFEwphVAyMmTz6+H0tV12VwKBgQCC\nPboLZHk224kqdLda9ceo13KBi5Q6kHC1l7prPf3+Io9cpBqvsqThh8HeY2OeafMh\nVV1V2XFepUERR6CttjSyptGKn2Cb+trSs7Tgd299fycAgZ8LMv8R/mK1MdJiO3S8\nY9fTWBVSbr+nnfpqxTFaiM865SPxNm6pj1RdejDzYQKBgQDM0/brCAJpA1Lup8Hm\nJmX/oDdV0uMK6YczejT3NbyhFp+2l9DcNX7i74JMdXcjHC5XBARog5/yS/YbKQ7u\nHkAbTYGoyCb90f3FtkiQP0GhhXA9gtGaIoaur4JFuRKkjpWqvxJtkXqADd0jvAX0\nLEk4NfQd+QT0KkNyGuFaqLOiHg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "user-378@strengthgame.iam.gserviceaccount.com",
+  "client_id": "107601744353634521244",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/user-378%40strengthgame.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

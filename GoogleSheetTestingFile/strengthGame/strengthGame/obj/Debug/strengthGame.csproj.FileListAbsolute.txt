@@ -1,0 +1,157 @@
+C:\Users\kangh\source\repos\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\Users\kangh\source\repos\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\Users\kangh\source\repos\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\Users\kangh\source\repos\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\Users\kangh\source\repos\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\Users\kangh\source\repos\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\Users\kangh\source\repos\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\Users\kangh\source\repos\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\Users\kangh\source\repos\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\Users\kangh\source\repos\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
+C:\Users\user1\Downloads\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\Users\user1\Downloads\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\Users\user1\Downloads\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\Users\user1\Downloads\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\Users\user1\Downloads\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\Users\user1\Downloads\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\Users\user1\Downloads\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\Users\user1\Downloads\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\Users\user1\Downloads\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\Users\user1\Downloads\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
+C:\Users\kangh\Desktop\2024년_1학기수업\게임 데이터 분석\강화 게임 과제\strengthGame\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\Users\kangh\Desktop\2024년_1학기수업\게임 데이터 분석\강화 게임 과제\strengthGame\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\Users\kangh\Desktop\2024년_1학기수업\게임 데이터 분석\강화 게임 과제\strengthGame\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\Users\kangh\Desktop\2024년_1학기수업\게임 데이터 분석\강화 게임 과제\strengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\Users\kangh\Desktop\2024년_1학기수업\게임 데이터 분석\강화 게임 과제\strengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\Users\kangh\Desktop\2024년_1학기수업\게임 데이터 분석\강화 게임 과제\strengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\Users\kangh\Desktop\2024년_1학기수업\게임 데이터 분석\강화 게임 과제\strengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\Users\kangh\Desktop\2024년_1학기수업\게임 데이터 분석\강화 게임 과제\strengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\Users\kangh\Desktop\2024년_1학기수업\게임 데이터 분석\강화 게임 과제\strengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\Users\kangh\Desktop\2024년_1학기수업\게임 데이터 분석\강화 게임 과제\strengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
+C:\Users\user1\Desktop\2024_1학기수업\게임데이터분석\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\Users\user1\Desktop\2024_1학기수업\게임데이터분석\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\Users\user1\Desktop\2024_1학기수업\게임데이터분석\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\Users\user1\Desktop\2024_1학기수업\게임데이터분석\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\2024_1학기수업\게임데이터분석\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\Users\user1\Desktop\2024_1학기수업\게임데이터분석\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\Users\user1\Desktop\2024_1학기수업\게임데이터분석\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\Users\user1\Desktop\2024_1학기수업\게임데이터분석\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\2024_1학기수업\게임데이터분석\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\Users\user1\Desktop\2024_1학기수업\게임데이터분석\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
+C:\Users\kangh\Downloads\StrengthGame-main\StrengthGame-main\strengthGameProject\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\Users\kangh\Downloads\StrengthGame-main\StrengthGame-main\strengthGameProject\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\Users\kangh\Downloads\StrengthGame-main\StrengthGame-main\strengthGameProject\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\Users\kangh\Downloads\StrengthGame-main\StrengthGame-main\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\Users\kangh\Downloads\StrengthGame-main\StrengthGame-main\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\Users\kangh\Downloads\StrengthGame-main\StrengthGame-main\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\Users\kangh\Downloads\StrengthGame-main\StrengthGame-main\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\Users\kangh\Downloads\StrengthGame-main\StrengthGame-main\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\Users\kangh\Downloads\StrengthGame-main\StrengthGame-main\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\Users\kangh\Downloads\StrengthGame-main\StrengthGame-main\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
+C:\Users\PC2402\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\Users\PC2402\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\Users\PC2402\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\Users\PC2402\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\Users\PC2402\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\Users\PC2402\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\Users\PC2402\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\Users\PC2402\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\Users\PC2402\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\Users\PC2402\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
+C:\Users\유수현\Desktop\StrengthGame-main\StrengthGame-main\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\Users\유수현\Desktop\StrengthGame-main\StrengthGame-main\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\Users\유수현\Desktop\StrengthGame-main\StrengthGame-main\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\Users\유수현\Desktop\StrengthGame-main\StrengthGame-main\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\Users\유수현\Desktop\StrengthGame-main\StrengthGame-main\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\Users\유수현\Desktop\StrengthGame-main\StrengthGame-main\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\Users\유수현\Desktop\StrengthGame-main\StrengthGame-main\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\Users\유수현\Desktop\StrengthGame-main\StrengthGame-main\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\Users\유수현\Desktop\StrengthGame-main\StrengthGame-main\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\Users\유수현\Desktop\StrengthGame-main\StrengthGame-main\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
+C:\Users\유수현\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\Users\유수현\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\Users\유수현\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\Users\유수현\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\Users\유수현\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\Users\유수현\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\Users\유수현\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\Users\유수현\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\Users\유수현\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\Users\유수현\Desktop\StrengthGame-master\StrengthGame-master\strengthGameProject\StrengthGame\strengthGameProject\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
+C:\Users\kangh\Downloads\testing\StrengthGame-main (1)\StrengthGame-main\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\Users\kangh\Downloads\testing\StrengthGame-main (1)\StrengthGame-main\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\Users\kangh\Downloads\testing\StrengthGame-main (1)\StrengthGame-main\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\Users\kangh\Downloads\testing\StrengthGame-main (1)\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\Users\kangh\Downloads\testing\StrengthGame-main (1)\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\Users\kangh\Downloads\testing\StrengthGame-main (1)\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\Users\kangh\Downloads\testing\StrengthGame-main (1)\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\Users\kangh\Downloads\testing\StrengthGame-main (1)\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\Users\kangh\Downloads\testing\StrengthGame-main (1)\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\Users\kangh\Downloads\testing\StrengthGame-main (1)\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
+C:\TeamProject\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\TeamProject\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\TeamProject\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\TeamProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\TeamProject\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\TeamProject\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\TeamProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\TeamProject\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\TeamProject\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\TeamProject\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
+C:\Users\csk83\Downloads\StrengthGame-main\StrengthGame-main\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\Users\csk83\Downloads\StrengthGame-main\StrengthGame-main\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\Users\csk83\Downloads\StrengthGame-main\StrengthGame-main\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\Users\csk83\Downloads\StrengthGame-main\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\Users\csk83\Downloads\StrengthGame-main\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\Users\csk83\Downloads\StrengthGame-main\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\Users\csk83\Downloads\StrengthGame-main\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\Users\csk83\Downloads\StrengthGame-main\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\Users\csk83\Downloads\StrengthGame-main\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\Users\csk83\Downloads\StrengthGame-main\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
+C:\Users\csk83\OneDrive\바탕 화면\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\Users\csk83\OneDrive\바탕 화면\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\Users\csk83\OneDrive\바탕 화면\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\Users\csk83\OneDrive\바탕 화면\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\Users\csk83\OneDrive\바탕 화면\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\Users\csk83\OneDrive\바탕 화면\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\Users\csk83\OneDrive\바탕 화면\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\Users\csk83\OneDrive\바탕 화면\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\Users\csk83\OneDrive\바탕 화면\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\Users\csk83\OneDrive\바탕 화면\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
+C:\Users\user1\Documents\GitHub\StrengthGame\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\Users\user1\Documents\GitHub\StrengthGame\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\Users\user1\Documents\GitHub\StrengthGame\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\Users\user1\Documents\GitHub\StrengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\GitHub\StrengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\Users\user1\Documents\GitHub\StrengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\Users\user1\Documents\GitHub\StrengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\Users\user1\Documents\GitHub\StrengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\GitHub\StrengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\Users\user1\Documents\GitHub\StrengthGame\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\strengthGame.exe.config
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\strengthGame.exe
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\strengthGame.pdb
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Google.Apis.Auth.dll
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Google.Apis.Core.dll
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Google.Apis.dll
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Google.Apis.Sheets.v4.dll
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\System.CodeDom.dll
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Google.Apis.pdb
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Google.Apis.xml
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Google.Apis.Auth.xml
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Google.Apis.Core.pdb
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Google.Apis.Core.xml
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Google.Apis.Sheets.v4.pdb
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Google.Apis.Sheets.v4.xml
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\bin\Debug\System.CodeDom.xml
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.Form1.resources
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.Properties.Resources.resources
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.GenerateResource.cache
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strength.520DD0EC.Up2Date
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.exe
+C:\Users\user1\Desktop\StrengthGame-main\strengthGame\strengthGame\obj\Debug\strengthGame.pdb
