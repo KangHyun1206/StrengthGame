@@ -1,0 +1,201 @@
+C# 구글 시트 api 소스 코드
+
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Services;
+using Google.Apis.Sheets.v4;
+using Google.Apis.Sheets.v4.Data;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Threading.Tasks;
+
+public partial class Form1 : Form
+{
+    public Form1()
+    {
+        InitializeComponent();
+        InitializeGoogleSheetService();  // API 서비스 초기화
+        InitializeSheetWithHeaders(); //시트 헤더 초기화
+        InitializeTotalSheetWithHeaders(); //Total 시트 헤더 초기화
+        
+    }
+    private SheetsService service;
+    private string ApplicationName = "Google Sheets API .NET TEST";
+    private string spreadsheetId = "16nvo9gxFUO_oXqtMxViJhqHTc5epZsNbWX7rzzYx324";
+
+    public string UserId;
+
+    private void InitializeGoogleSheetService()
+    {
+        GoogleCredential credential;
+        using (var stream = new FileStream("strengthgame-427db5002ebd.json", FileMode.Open, FileAccess.Read))
+        {
+            credential = GoogleCredential.FromStream(stream).CreateScoped(SheetsService.Scope.Spreadsheets);
+        }
+
+        service = new SheetsService(new BaseClientService.Initializer()
+        {
+            HttpClientInitializer = credential,
+            ApplicationName = ApplicationName,
+        });
+    }
+
+    private async void InitializeSheetWithHeaders()
+    {
+        try
+        {
+            var range = "DataSheet!A1:Z1";
+            var valueRange = new ValueRange();
+            var headers = new List<object>() { "No.", "아이디", "시간", "타입", "레벨", "잔금", "아이템 수", "강화 성공 여부", "2단 강화 여부" };
+            valueRange.Values = new List<IList<object>> { headers };
+
+            var request = service.Spreadsheets.Values.Update(valueRange, spreadsheetId, range);
+            request.ValueInputOption = SpreadsheetsResource.ValuesResource.UpdateRequest.ValueInputOptionEnum.USERENTERED;
+            await request.ExecuteAsync();
+        }
+        catch (Exception ex)
+        {
+            // Handle error
+        }
+    }
+
+    private async void LogDataToGoogleSheet(string actionType)
+    {
+        try
+        {
+            string range = "DataSheet!A2:Z";
+            var valueRange = new ValueRange();
+            var oblist = new List<object>() { orderNum.ToString(), UserId, DateTime.Now.ToString(), actionType, characterLevel.ToString(), gameMoney.ToString(), gameItem.ToString(), result.ToString(), "-" };
+            valueRange.Values = new List<IList<object>> { oblist };
+
+            var request = service.Spreadsheets.Values.Append(valueRange, spreadsheetId, range);
+            request.ValueInputOption = SpreadsheetsResource.ValuesResource.AppendRequest.ValueInputOptionEnum.USERENTERED;
+            await request.ExecuteAsync();
+        }
+        catch (Exception ex)
+        {
+            // Handle error
+        }
+    }
+
+    private async void LogDataToGoogleSheet(string actionType, string statusG)
+    {
+        try
+        {
+            string range = "DataSheet!A2:Z";
+            var valueRange = new ValueRange();
+            var oblist = new List<object>() { orderNum.ToString(), UserId, DateTime.Now.ToString(), actionType, characterLevel.ToString(), gameMoney.ToString(), gameItem.ToString(), result.ToString(), statusG };
+            valueRange.Values = new List<IList<object>> { oblist };
+
+            var request = service.Spreadsheets.Values.Append(valueRange, spreadsheetId, range);
+            request.ValueInputOption = SpreadsheetsResource.ValuesResource.AppendRequest.ValueInputOptionEnum.USERENTERED;
+            await request.ExecuteAsync();
+        }
+        catch (Exception ex)
+        {
+            // Handle error
+        }
+    }
+
+    private async void InitializeTotalSheetWithHeaders()
+    {
+        try
+        {
+            var range = "TotaluserdataSheet!A1:Z1";
+            var valueRange = new ValueRange();
+            var headers = new List<object>() { "아이디", "총 이벤트 수", "로그인 횟수", "최근 방문일", "재화 소모량", "아이템 사용 횟수", "일 방문 수", "평균 플레이 시간" };
+            valueRange.Values = new List<IList<object>> { headers };
+
+            var request = service.Spreadsheets.Values.Update(valueRange, spreadsheetId, range);
+            request.ValueInputOption = SpreadsheetsResource.ValuesResource.UpdateRequest.ValueInputOptionEnum.USERENTERED;
+            await request.ExecuteAsync();
+        }
+        catch (Exception ex)
+        {
+            // Handle error
+        }
+    }
+
+    private async Task<Dictionary<string, IList<object>>> ReadUserData(string spreadsheetId, string sheetName)
+    {
+        var userData = new Dictionary<string, IList<object>>();
+        try
+        {
+            string range = $"{sheetName}!A:Z";
+            var request = service.Spreadsheets.Values.Get(spreadsheetId, range);
+            var response = await request.ExecuteAsync();
+
+            if (response.Values != null)
+            {
+                foreach (var row in response.Values)
+                {
+                    if (row.Count > 0)
+                    {
+                        string userId = row[0].ToString();
+                        userData[userId] = row;
+                    }
+                }
+            }
+            return userData;
+        }
+        catch (Exception ex)
+        {
+            // Handle error
+            return null;
+        }
+    }
+
+    private async void UpdateOrAppendUserData(string spreadsheetId, string sheetName, string userId, IList<object> newData)
+    {
+        var userData = await ReadUserData(spreadsheetId, sheetName);
+
+        if (userData != null && userData.ContainsKey(userId))
+        {
+            string range = $"{sheetName}!A{userData.Keys.ToList().IndexOf(userId) + 1}:Z";
+            int currentEventCount = int.Parse(userData[userId][1].ToString()) + orderNum;
+            int currentLoginCount = int.Parse(userData[userId][2].ToString()) + 1;
+            newData[1] = currentEventCount.ToString();
+            newData[2] = currentLoginCount.ToString();
+
+            var valueRange = new ValueRange() { Values = new List<IList<object>> { newData } };
+            var updateRequest = service.Spreadsheets.Values.Update(valueRange, spreadsheetId, range);
+            updateRequest.ValueInputOption = SpreadsheetsResource.ValuesResource.UpdateRequest.ValueInputOptionEnum.USERENTERED;
+            await updateRequest.ExecuteAsync();
+            MessageBox.Show("User data updated.");
+        }
+        else
+        {
+            newData[1] = orderNum.ToString();
+            newData[2] = "1";
+            string appendRange = $"{sheetName}!A:Z";
+            var valueRange = new ValueRange() { Values = new List<IList<object>> { newData } };
+            var appendRequest = service.Spreadsheets.Values.Append(valueRange, spreadsheetId, appendRange);
+            appendRequest.ValueInputOption = SpreadsheetsResource.ValuesResource.AppendRequest.ValueInputOptionEnum.USERENTERED;
+            await appendRequest.ExecuteAsync();
+            MessageBox.Show("User data added.");
+        }
+    }
+}
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+앱 스크립트(구글 스프레드 시트)
+function copyPlayTime() {
+  // 시트 변수 설정
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var playSheet = ss.getSheetByName('PlayTimeSheet');
+  var avgSheet = ss.getSheetByName('AverageSheet');
+  
+  // PlayTimeSheet 시트에서 F2 셀의 플레이타임 가져오기
+  var playTime = playSheet.getRange('F2').getValue();
+  
+  // AverageSheet 시트에서 마지막 행 찾기
+  var lastRow = avgSheet.getLastRow() + 1;
+  
+  // 플레이타임 데이터를 AverageSheet 시트에 복사
+  avgSheet.getRange(lastRow, 1).setValue(playTime);
+  
+  // 날짜도 함께 기록 (선택사항)
+  avgSheet.getRange(lastRow, 2).setValue(new Date());
+}
